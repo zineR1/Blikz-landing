@@ -1,0 +1,80 @@
+.gral{
+    margin-top: 90px;
+}
+
+.div1{
+    width: 440px;
+    margin: 0 auto;
+}
+
+.div1 h1{
+    font-weight: 630;
+}
+
+.div1 h3{
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}
+
+.buttons_div{
+    background-color: rgba(239, 239, 255, 0.719);
+    height: 80px;
+    width: 490px;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons_div button{
+    height: 60px;
+    width: 230px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin: auto 5px;
+}
+
+.buttons_div button h5{
+    font-size: 17px;
+    font-weight: 500;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.buttons_div button p{
+    font-size: 10px;
+    /* margin-top: -15px; */
+    font-weight: 300;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.btn{
+    background-color: rgb(219, 224, 255);
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn h5{
+    color: grey;
+}
+
+.btn p{
+    color: rgb(89, 78, 240);
+}
+
+.active{
+    background-color: rgb(100, 89, 253);
+
+}
+
+.active h5{
+    color: white;
+
+}
+
+.active p{
+    color: rgb(224, 224, 224);
+}

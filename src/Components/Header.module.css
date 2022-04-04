@@ -1,0 +1,35 @@
+.gral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 13px;
+    font-weight:100;
+    margin-top: 10px;
+}
+
+.gral img{
+    margin: auto 0;
+    margin-right: 370px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.login{
+    background-color: rgb(219, 224, 255);
+    color: rgb(91, 91, 218);
+    font-weight: bold;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    margin: auto 0;
+    margin-right: 20px;
+    cursor: pointer;
+}

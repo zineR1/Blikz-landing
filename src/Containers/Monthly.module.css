@@ -1,0 +1,104 @@
+.gral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px auto;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 9px 16px rgba(179, 178, 178, 0.493);
+    border-radius: 15px;
+    width: 340px;
+    height: 500px;
+}
+
+.container h1{
+    font-size: 60px;
+}
+
+.title h3{
+    font-weight: 700;
+    margin-top: 35px;
+
+}
+
+.title p{
+    color: rgb(129, 129, 129);
+}
+
+.text_div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.text_div img{
+    margin: auto 10px;
+    /* margin-right: 10px; */
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 9px 16px rgba(179, 178, 178, 0.493);
+    border-radius: 15px;
+    width: 340px;
+}
+
+.container2 h1{
+    font-size: 60px;
+    color: rgb(69, 57, 233);
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 9px 16px rgba(179, 178, 178, 0.493);
+    border-radius: 15px;
+    width: 340px;
+}
+
+.container3 h1{
+    font-size: 60px;
+}
+
+.price{
+    justify-content: center;
+}
+
+.price h1{
+    margin-top: -25px;
+    margin-bottom: -15px;
+}
+
+.price p,h4{
+    color: rgb(105, 105, 105);
+    margin-left: 20px;
+}
+
+.title3{
+    margin-bottom: 90px;
+}
+
+.title3 h3{
+    margin-top: 35px;
+
+}
+
+.title3 p{
+    color: rgb(129, 129, 129);
+}
+
+.middle h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.middle p{
+    color: rgb(129, 129, 129);
+}

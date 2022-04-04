@@ -1,0 +1,45 @@
+.gral{
+    margin-top: 90px;
+}
+
+.div1{
+    width: 440px;
+    margin: 0 auto;
+}
+
+.div1 h1{
+    font-weight: 630;
+}
+
+.div1 h3{
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto 0;
+}
+
+.texto{
+    margin: 10px 0px;
+}
+
+.texto img{
+    margin-bottom: 10px;
+}
+
+.texto h2{
+    font-weight: 640;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.texto h3{
+    font-weight: 400;
+    width: 410px;
+    color: rgb(119, 119, 119);
+}
