@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc9b8123.css",
+    "main.js": "/static/js/main.07c6fea7.js",
+    "static/js/787.28525a86.chunk.js": "/static/js/787.28525a86.chunk.js",
+    "static/media/dispositivos.png": "/static/media/dispositivos.01be0cda35249fcd8783.png",
+    "static/media/entregas.png": "/static/media/entregas.d947e0aa36cb17dcf80c.png",
+    "static/media/celu.png": "/static/media/celu.b69efed9cf1359dbc23c.png",
+    "static/media/recibepedidos.png": "/static/media/recibepedidos.4d6ffa9e8fb74e8814f3.png",
+    "static/media/subeproductos.png": "/static/media/subeproductos.53701886c8de7da46d85.png",
+    "static/media/ordenes.png": "/static/media/ordenes.9dfb94223bcd63b0a64b.png",
+    "static/media/icono2.png": "/static/media/icono2.12fbed8728d59db9571e.png",
+    "static/media/creartienda.png": "/static/media/creartienda.887d8fb17ff740bd28c6.png",
+    "static/media/icono3.png": "/static/media/icono3.22bb92e5f6b7b309252a.png",
+    "static/media/icono4.png": "/static/media/icono4.4e8a12a296ecbbdbb2ab.png",
+    "static/media/icono1.png": "/static/media/icono1.6ed733209b6b5528276e.png",
+    "static/media/map.png": "/static/media/map.f247b64eeccf4e1993d0.png",
+    "static/media/check.png": "/static/media/check.b05d4c0b010046753428.png",
+    "static/media/logo.png": "/static/media/logo.ccc8b72634e19774fa01.png",
+    "index.html": "/index.html",
+    "main.cc9b8123.css.map": "/static/css/main.cc9b8123.css.map",
+    "main.07c6fea7.js.map": "/static/js/main.07c6fea7.js.map",
+    "787.28525a86.chunk.js.map": "/static/js/787.28525a86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc9b8123.css",
+    "static/js/main.07c6fea7.js"
+  ]
+}
