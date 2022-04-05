@@ -1,0 +1,19 @@
+.gral{
+    width: 100%;
+}
+
+.gral iframe::-webkit-scrollbar{
+    display: none;
+}
+
+.gral iframe{
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    border: none;
+    height: 300px;
+}
+
+.gral iframe button{
+   background-color: red;
+}

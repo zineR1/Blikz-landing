@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Servicios.module.css';
-import ordenes from '../assets/ordenes.png';
+import ordenes from '../assets/ordenes.m4v';
 import check from '../assets/check.png';
-import celu from '../assets/celu.png';
-import map from '../assets/map.png';
+import celu from '../assets/celu.m4v';
+import map from '../assets/map.m4v';
 
 
 const Servicios = () => {
@@ -22,6 +22,7 @@ const Servicios = () => {
                 <div className={styles.text_div}>
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <h3>Organización de todos tus pedidos.</h3>
+
                 </div>
                 <div className={styles.text_div}>
                     <img src={check} alt="check" height="18px" width="18px"/>
@@ -33,7 +34,8 @@ const Servicios = () => {
                 </div>
                
             </div>
-                <img src={ordenes} alt="crear tienda" height="350px" width="540px"/>
+                {/* <img src={ordenes} alt="crear tienda" height="350px" width="540px"/> */}
+                <video src={ordenes} alt="crear tienda" height="540px" width="580px" autoPlay muted loop/>
         </div>
 
         <div className={styles.container2}>
@@ -50,7 +52,7 @@ const Servicios = () => {
                     <h3>Ten una comunicación personalizada con cada cliente.</h3>
                 </div>
             </div>
-                <img src={celu} alt="ordenes" height="350px" width="500px"/>
+                <video src={celu} alt="whatsapp" height="470px" autoPlay muted loop/>
         </div>
 
         <div className={styles.container}>
@@ -68,7 +70,8 @@ const Servicios = () => {
                 </div>
                
             </div>
-                <img className={styles.map} src={map} alt="mapa" height="450px" width="480px"/>
+                {/* <img className={styles.map} src={map} alt="mapa" height="450px" width="480px"/> */}
+                <video src={map} alt="mapa" height="450px" width="370px" autoPlay muted loop/>
         </div>
     </div>
   )

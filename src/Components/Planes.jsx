@@ -10,8 +10,9 @@ const Planes = ({setPanelActive, panelActive}) => {
       }else{
         setPanelActive({ mensual: true });
       }
-      
     };
+
+    
   
   return (
     <div className={styles.gral}>

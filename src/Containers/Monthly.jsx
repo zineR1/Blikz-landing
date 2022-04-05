@@ -11,7 +11,7 @@ const Monthly = () => {
           <p>para quienes recién empiezan</p>
           </div>
           <div className={styles.price}>
-          <h4>$599</h4>
+          <h4><del>$599</del></h4>
           <h1>$399</h1>
           <p>MXN/mes</p>
           </div>
@@ -39,7 +39,7 @@ const Monthly = () => {
           <p>para emprendimientos más establecidos</p>
           </div>
           <div className={styles.price}>
-          <h4>$899</h4>
+          <h4><del>$899</del></h4>
           <h1>$599</h1>
           <p>MXN/mes</p>
           </div>

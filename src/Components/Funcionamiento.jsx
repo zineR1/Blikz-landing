@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Funcionamiento.module.css';
-import creartienda from '../assets/creartienda.png';
-import subeproductos from '../assets/subeproductos.png';
-import recibepedidos from '../assets/recibepedidos.png';
-import entregas from '../assets/entregas.png';
+import creartienda from '../assets/creartienda.jpg';
+import subeproductos from '../assets/subeproductos.jpg';
+import recibepedidos from '../assets/recibepedidos.jpg';
+import entregas from '../assets/entregas.jpg';
 
 const Funcionamiento = () => {
   return (
@@ -18,9 +18,7 @@ const Funcionamiento = () => {
                 <h2>1 - Crea tu página web</h2>
                 <h3>Regístrate con tus datos para personalizar tu tienda.</h3>
             </div>
-            <div className={styles.imagen}>
-                <img src={creartienda} alt="crear tienda" height="250px"/>
-            </div>
+                <img src={creartienda} alt="crear tienda" height="300px" width="480px"/>
         </div>
 
         <div className={styles.container2}>
@@ -29,7 +27,7 @@ const Funcionamiento = () => {
                 <h3>Crea tu catálogo digital desde tu computadora o móvil. Es fácil e intituivo.</h3>
             </div>
             <div className={styles.imagen2}>
-                <img src={subeproductos} alt="sube productos" height="240px" width="430px"/>
+                <img src={subeproductos} alt="sube productos" height="250px" width="450px"/>
             </div>
         </div>
 
@@ -38,7 +36,7 @@ const Funcionamiento = () => {
                 <h2>3 - Comparte el link de tu tienda y empieza a recibir pedidos</h2>
                 <h3>Blikz procesa tus pedidos y los organiza por ti, así ahorras tiempo.</h3>
             </div>
-                <img src={recibepedidos} alt="recibe pedidos" height="280px"/>
+                <img src={recibepedidos} alt="recibe pedidos" height="350px"/>
         </div>
 
         <div className={styles.container2}>
@@ -46,7 +44,7 @@ const Funcionamiento = () => {
                 <h2>4 - Entrega a tus clientes locales en minutos</h2>
                 <h3>Con nuestro servicio de delivery On-Demand, un repartidor se encargará de la entrega por ti.</h3>
             </div>
-                <img src={entregas} alt="sube productos" height="350px"/>
+                <img src={entregas} alt="sube productos" height="200px"/>
         </div>
 
 
