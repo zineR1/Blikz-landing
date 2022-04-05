@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
-import {Header, Landing, Funcionamiento, Servicios, Beneficios, Planes} from "../Components";
+import {Header, Landing, Funcionamiento, Servicios, Beneficios, Planes,Contact} from "../Components";
 import Monthly from "./Monthly";
 import Anual from "./Anual";
 
@@ -36,6 +36,9 @@ const Home = () => {
           {panelActive.anual && <Anual/>}
           {!panelActive.mensual &&  !panelActive.mensual &&  <Monthly/>}
         </section>
+      </div>
+      <div>
+        <Contact/>
       </div>
 
     </div>
