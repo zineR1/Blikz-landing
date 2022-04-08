@@ -34,7 +34,6 @@ const Servicios = () => {
                 </div>
                
             </div>
-                {/* <img src={ordenes} alt="crear tienda" height="350px" width="540px"/> */}
                 <video src={ordenes} alt="crear tienda" height="540px" width="580px" autoPlay muted loop/>
         </div>
 
@@ -70,7 +69,6 @@ const Servicios = () => {
                 </div>
                
             </div>
-                {/* <img className={styles.map} src={map} alt="mapa" height="450px" width="480px"/> */}
                 <video src={map} alt="mapa" height="450px" width="370px" autoPlay muted loop/>
         </div>
     </div>

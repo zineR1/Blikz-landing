@@ -2,14 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 13px;
-    font-weight:100;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .gral img{
     margin: auto 0;
-    margin-right: 370px;
+    margin-right: 150px;
     margin-left: 50px;
     cursor: pointer;
 }
@@ -17,8 +15,12 @@
 .btn{
     border: none;
     background-color: transparent;
-    font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight:500;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    margin: auto 0;
+    color: black;
 }
 
 .login{
@@ -29,7 +31,6 @@
     width: 120px;
     border: none;
     border-radius: 5px;
-    margin: auto 0;
-    margin-right: 20px;
+    margin: auto 15px;
     cursor: pointer;
 }

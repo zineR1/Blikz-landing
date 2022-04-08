@@ -1,19 +1,26 @@
 .gral{
-    margin-top: 90px;
+    margin-top: 120px;
 }
 
 .div1{
-    width: 440px;
+    width: 600px;
     margin: 0 auto;
+    font-family: 'Montserrat';
+
 }
 
 .div1 h1{
     font-weight: 630;
+    font-size: 38px;
 }
 
 .div1 h3{
     font-weight: 400;
-    color: rgb(119, 119, 119);
+    color: var(--color-subtitle);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 500px;
+    line-height: 30px;
 }
 
 .mainContainer{
@@ -26,20 +33,22 @@
 
 .texto{
     margin: 10px 0px;
+    font-family: 'Montserrat';
 }
 
 .texto img{
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .texto h2{
     font-weight: 640;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: -20px;
 }
 
 .texto h3{
     font-weight: 400;
-    width: 410px;
-    color: rgb(119, 119, 119);
+    width: 430px;
+    line-height: 30px;
+    color: var(--color-subtitle);
 }

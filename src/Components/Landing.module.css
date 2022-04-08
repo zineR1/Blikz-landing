@@ -12,19 +12,21 @@
 
 .texto{
     margin: auto 0px;
-    width: 500px;
+    width: 480px;
     text-align: left;
+    font-family: 'Montserrat';
 }
 
 .texto h1{
-    width: 360px;
-    font-size: 37px;
+    /* width: 400px; */
+    font-size: 43px;
     font-weight: 630;
 }
 
 .texto h3{
     font-weight: 400;
-    color: rgb(119, 119, 119);
+    /* color: rgb(84, 84, 84); */
+    line-height: 30px;
 
 }
 

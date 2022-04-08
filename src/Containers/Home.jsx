@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
-import {Header, Landing, Funcionamiento, Servicios, Beneficios, Planes,Contact} from "../Components";
+import {Header, Landing, Funcionamiento, Servicios, Beneficios, Planes,Contact, Footer} from "../Components";
 import Monthly from "./Monthly";
 import Anual from "./Anual";
 
@@ -20,25 +20,28 @@ const Home = () => {
         <div>
           <Landing/>
         </div>
-        <div>
+        <div id="como-funciona">
           <Funcionamiento/>
         </div>
-        <div>
+        <div id="servicios">
           <Servicios/>
         </div>
-        <div>
+        <div id="beneficios">
           <Beneficios/>
         </div>
-        <div className={styles.div_Navbar}>
+        <div id="planes" className={styles.div_Navbar}>
       <Planes setPanelActive={setPanelActive} panelActive={panelActive}/>
       <section>
           {panelActive.mensual &&  <Monthly/>}
           {panelActive.anual && <Anual/>}
-          {!panelActive.mensual &&  !panelActive.mensual &&  <Monthly/>}
+          {!panelActive.mensual &&  !panelActive.anual &&  <Monthly/>}
         </section>
       </div>
       <div>
         <Contact/>
+      </div>
+      <div>
+        <Footer/>
       </div>
 
     </div>

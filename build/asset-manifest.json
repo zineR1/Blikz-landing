@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab21cd48.css",
-    "main.js": "/static/js/main.6b1ee6cf.js",
+    "main.css": "/static/css/main.430d10c3.css",
+    "main.js": "/static/js/main.9c764120.js",
     "static/js/787.28525a86.chunk.js": "/static/js/787.28525a86.chunk.js",
     "static/media/celu.m4v": "/static/media/celu.2421b901cce07d9a2f03.m4v",
     "static/media/map.m4v": "/static/media/map.94dd58af2fe072d4f48b.m4v",
     "static/media/ordenes.m4v": "/static/media/ordenes.d30f29769ce49c4f979c.m4v",
     "static/media/dispositivos.jpg": "/static/media/dispositivos.f342778f6186bdaf7465.jpg",
     "static/media/creartienda.jpg": "/static/media/creartienda.9dbf2443b01f964836d0.jpg",
+    "static/media/fondopagina.png": "/static/media/fondopagina.ac0f44f73f61034fffff.png",
     "static/media/recibepedidos.jpg": "/static/media/recibepedidos.672812238a99dee3d122.jpg",
     "static/media/subeproductos.jpg": "/static/media/subeproductos.5661dcfb708cfa6e6c96.jpg",
+    "static/media/blikz1.png": "/static/media/blikz1.217066651825b8516fcb.png",
     "static/media/entregas.jpg": "/static/media/entregas.064980666e2955983d37.jpg",
     "static/media/icono4.jpg": "/static/media/icono4.5f928ff6856fe636b3ef.jpg",
     "static/media/icono2.jpg": "/static/media/icono2.0c3ceb0948947beb97d9.jpg",
     "static/media/icono3.jpg": "/static/media/icono3.6e6f9011c841e6a51e65.jpg",
     "static/media/icono1.jpg": "/static/media/icono1.8617594503f5ab114beb.jpg",
+    "static/media/footer.jpg": "/static/media/footer.004225ff1836b73945b0.jpg",
     "static/media/check.png": "/static/media/check.b05d4c0b010046753428.png",
-    "static/media/logo.png": "/static/media/logo.ccc8b72634e19774fa01.png",
+    "static/media/logo.png": "/static/media/logo.9f04553cb11fad49e26e.png",
     "index.html": "/index.html",
-    "main.ab21cd48.css.map": "/static/css/main.ab21cd48.css.map",
-    "main.6b1ee6cf.js.map": "/static/js/main.6b1ee6cf.js.map",
+    "main.430d10c3.css.map": "/static/css/main.430d10c3.css.map",
+    "main.9c764120.js.map": "/static/js/main.9c764120.js.map",
     "787.28525a86.chunk.js.map": "/static/js/787.28525a86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab21cd48.css",
-    "static/js/main.6b1ee6cf.js"
+    "static/css/main.430d10c3.css",
+    "static/js/main.9c764120.js"
   ]
 }

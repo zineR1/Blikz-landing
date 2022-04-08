@@ -36,7 +36,7 @@ const Monthly = () => {
           <div className={styles.container2}>
           <div className={styles.title}>
           <h3>Plan comercial</h3>
-          <p>para emprendimientos más establecidos</p>
+          <p>emprendimientos más establecidos</p>
           </div>
           <div className={styles.price}>
           <h4><del>$899</del></h4>
@@ -64,7 +64,7 @@ const Monthly = () => {
           <div className={styles.container3}>
           <div className={styles.title3}>
            <h3>Plan avanzado</h3>
-          <p>para clientes con grandes franquicias</p>
+          <p>clientes con grandes franquicias</p>
           </div>
           <div className={styles.middle}>
           <h2>Contáctanos</h2>
