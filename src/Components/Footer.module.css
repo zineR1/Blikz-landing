@@ -11,17 +11,7 @@
      margin-right: 160px;
      color: rgb(163, 163, 163);
      text-align: left;
-     /* width: 40%; */
 }
-
-/* .logo_div img{
-     margin-bottom: 30px;
-}
-
-.logo_div p{
-     position: absolute;
-     margin: 0 auto;
-} */
 
 .main{
      display: flex;
@@ -52,25 +42,16 @@
 .legales{
      display: flex;
      flex-direction: column;
-     /* justify-content: center; */
      text-align: left;
-     /* margin: 0 auto; */
      color: rgb(163, 163, 163);
      width: 300;
      font-family: 'Montserrat';
 }
 
 .final p{
-     /* margin-top: 230px; */
      position: absolute;
      bottom: 0;
      color: rgb(163, 163, 163);
      margin-left: 520px;
      font-family: 'Montserrat';
-     
-     /* display: flex;
-     flex-direction: column; */
-     /* justify-content: flex-end; */
-     /* bottom:0; */
-     /* margin: 0 auto; */
 }

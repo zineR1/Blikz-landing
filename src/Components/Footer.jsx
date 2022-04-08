@@ -15,9 +15,9 @@ const Footer = () => {
         </div>
         <div className={styles.legales}>
         <h4>Legales</h4>
-        <a>Términos y condiciones</a>
-        <a>Políticas de datos y privacidad</a>
-        <a>Libro de reclamaciones</a>
+        <p>Términos y condiciones</p>
+        <p>Políticas de datos y privacidad</p>
+        <p>Libro de reclamaciones</p>
         </div>
         <div className={styles.rs}>
           <h4>Contacto</h4>
