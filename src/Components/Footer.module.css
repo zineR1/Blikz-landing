@@ -1,6 +1,6 @@
 .gral{
-     background-image: url('../assets/footer.jpg');
-     height: 500px;
+     /* background-image: url('../assets/footer.jpg'); */
+     height: 700px;
      width: 100%;
      background-repeat: no-repeat; 
      background-size: cover;
@@ -18,9 +18,9 @@
      justify-content: center;
      flex-direction: row;
      justify-content: space-around;     
-     align-items: center;
+     /* align-items: center; */
      position: absolute;
-     top: 230px;
+     top: 305px;
      width: 100%;
      font-family: 'Montserrat';
 
