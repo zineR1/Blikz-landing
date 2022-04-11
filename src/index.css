@@ -13,6 +13,12 @@ code {
 }
 
 :root {
-  --color-bg-footer:#171516;
-  --color-subtitle: rgb(86, 86, 86);
+  --color-bg-footer: #171516;
+  --color-subtitle: #4B5C61;
+  --color-button-principal: #5273F0;
+  --color-button-hover: #2851EC;
+  --color-button-second: #E3E9FF;
+  --color-button-hover2: #E8EDFD;
+  --color-footer-text: #B3B3B3;
+  --color-footer-title: #f3f3f3;
 }

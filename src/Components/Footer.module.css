@@ -9,7 +9,7 @@
 
 .logo_div{
      margin-right: 160px;
-     color: rgb(163, 163, 163);
+     color:  var(--color-footer-text);
      text-align: left;
 }
 
@@ -31,8 +31,10 @@
 
 }
 
-.rs{
+.rs h4{
+     color: var(--color-footer-title);
      text-align: left;
+     margin-bottom: 30px;
 }
 
 .rs img{
@@ -43,15 +45,22 @@
      display: flex;
      flex-direction: column;
      text-align: left;
-     color: rgb(163, 163, 163);
      width: 300;
      font-family: 'Montserrat';
+}
+
+.legales h4{
+    color: var(--color-footer-title);
+}
+
+.legales p{
+    color: var(--color-footer-text);
 }
 
 .final p{
      position: absolute;
      bottom: 0;
-     color: rgb(163, 163, 163);
+     color: var(--color-footer-text);
      margin-left: 520px;
      font-family: 'Montserrat';
 }

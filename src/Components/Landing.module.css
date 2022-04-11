@@ -31,12 +31,16 @@
 }
 
 .texto button{
-    background-color: rgb(69, 57, 233);
+    background-color: var(--color-button-principal);
     color: white;
     font-weight: 600;
     border: none;
     border-radius: 17px;
     height: 35px;
-    width: 120px;
+    width: 193px;
     cursor: pointer;
+}
+
+.texto button:hover{
+    background-color: var(--color-button-hover);
 }

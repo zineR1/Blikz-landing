@@ -24,13 +24,22 @@
 }
 
 .login{
-    background-color: rgb(219, 224, 255);
-    color: rgb(91, 91, 218);
-    font-weight: bold;
-    height: 30px;
-    width: 120px;
+    background-color:  var(--color-button-second);
+    color: #5273F0;
+    font-weight: 600;
+    font-family: "Montserrat";
+    height: 32px;
+    width: 127px;
     border: none;
-    border-radius: 5px;
+    border-radius: 9.78px;
     margin: auto 15px;
     cursor: pointer;
+}
+
+.login:hover{
+    background-color: var(--color-button-hover2);
+}
+
+.btnlogin{
+    margin: auto 0;
 }

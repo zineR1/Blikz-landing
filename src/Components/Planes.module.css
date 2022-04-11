@@ -57,12 +57,12 @@
 }
 
 .btn{
-    background-color: rgb(219, 224, 255);
+    background-color: #E3E9FF;
     cursor: pointer;
     font-size: 16px;
 }
 .btn h5{
-    color: grey;
+    color: #8C8C8C;
 }
 
 .btn p{
@@ -70,7 +70,7 @@
 }
 
 .active{
-    background-color: rgb(100, 89, 253);
+    background-color: #5273F0;
 
 }
 
