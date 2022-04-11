@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
-import {Header, Landing, Funcionamiento, Servicios, Beneficios, Planes,Contact, Footer} from "../Components";
+import {Header, Landing, Funcionamiento, Servicios, Beneficios, Planes, Footer} from "../Components";
 import Monthly from "./Monthly";
 import Anual from "./Anual";
 
