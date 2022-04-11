@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         </div>
         <div className={styles.final}>
-        <p>Copyright © 2022 Blikz</p>
+        <p>Copyright © 2022 Blikz</p> 
         </div>
         <img src={footer1} alt="footer" height="100%" width="100%"/>
     </div>
