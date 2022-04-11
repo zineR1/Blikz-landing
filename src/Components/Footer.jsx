@@ -4,7 +4,7 @@ import logoblikz from '../assets/blikz1.png';
 import wp from '../assets/IconoWhatsapp.jpg';
 import lin from '../assets/IconoLinkedin.jpg';
 import mail from '../assets/IconoMail.jpg';
-import footer1 from '../assets/entregas.jpg';
+import footer1 from '../assets/footer.jpg';
 
 const Footer = () => {
   return (
