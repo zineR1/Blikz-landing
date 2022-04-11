@@ -4,7 +4,7 @@ import logoblikz from '../assets/blikz1.png';
 import wp from '../assets/IconoWhatsapp.jpg';
 import lin from '../assets/IconoLinkedin.jpg';
 import mail from '../assets/IconoMail.jpg';
-import footer from '../assets/footer.jpg';
+import footer1 from '../assets/footer.jpg';
 
 const Footer = () => {
   return (
@@ -30,7 +30,7 @@ const Footer = () => {
         <div className={styles.final}>
         <p>Copyright © 2022 Blikz</p>
         </div>
-        <img src={footer} alt="footer" height="100%" width="100%"/>
+        <img src={footer1} alt="footer" height="100%" width="100%"/>
     </div>
   )
 }
