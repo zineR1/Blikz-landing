@@ -6,8 +6,8 @@ import Inicial from './Planes/Inicial';
 const Monthly = () => {
 
  const [formChangeInicial, setFormChangeInicial] = useState(false);
- const [formChangeComercial, setFormChangeComercial] = useState(false);
- const [formChangeAvanzado, setFormChangeAvanzado] = useState(false);
+//  const [formChangeComercial, setFormChangeComercial] = useState(false);
+//  const [formChangeAvanzado, setFormChangeAvanzado] = useState(false);
 
   return (
     <div className={styles.gral}>
@@ -70,7 +70,7 @@ const Monthly = () => {
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>Delivery on demand hasta 5km</p>
                 </div> 
-                <a>Proximamente</a>
+                <p className={styles.prox}>Proximamente</p>
           </div>
           {/* TARJETA 3 */}
           <div className={styles.container}>
@@ -99,7 +99,7 @@ const Monthly = () => {
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>Delivery on demand hasta 5km</p>
                 </div> 
-                <a>Proximamente</a>
+                <p className={styles.prox}>Proximamente</p>
           </div>
     </div>
   )

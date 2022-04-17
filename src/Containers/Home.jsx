@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Home.module.css';
 import {Header, Landing, Funcionamiento, Servicios, Beneficios, Planes, Footer} from "../Components";
 import Monthly from "./Monthly";
-import Anual from "./Anual";
+// import Anual from "./Anual";
 
 
 const Home = () => {
@@ -33,7 +33,7 @@ const Home = () => {
       <Planes setPanelActive={setPanelActive} panelActive={panelActive}/>
       <section>
           {panelActive.mensual &&  <Monthly/>}
-          {panelActive.anual && <Anual/>}
+          {panelActive.anual && <Monthly/>}
           {!panelActive.mensual &&  !panelActive.anual &&  <Monthly/>}
         </section>
       </div>

@@ -6,6 +6,14 @@
 
 }
 
+.prox{
+    color: var(--color-button-principal);
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 14px;
+    margin-top:22px;
+}
+
 .container{
     display: flex;
     flex-direction: column;
