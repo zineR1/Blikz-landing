@@ -24,7 +24,7 @@ const Footer = () => {
           <a href="https://walink.co/ccfc03" target="_blank" without rel="noreferrer">
           <img src={wp} alt="whatsapp" height="50px"/>
           </a>
-          <a href="https://www.facebook.com/Blikz-100292102667319" target="_blank" without rel="noreferrer">
+          <a href="https://www.facebook.com/blikzmx" target="_blank" without rel="noreferrer">
           <img src={fb} alt="facebook" height="50px"/>
           </a>
           <a href="https://instagram.com/blikzmx" target="_blank" without rel="noreferrer">

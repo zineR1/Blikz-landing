@@ -20,7 +20,7 @@ const Landing = () => {
       </div>
       <div className={styles.imagenes}>
         <img src={dispositivos} alt="dispositivos" height="350px"/>
-        <a href="https://hurried-growth-8111.glide.page/dl/inicio"><button>Demo</button></a>
+        <a href="https://hurried-growth-8111.glide.page/dl/inicio" target="_blank" without rel="noreferrer"><button>Demo</button></a>
       </div>
       </div>
       </div>

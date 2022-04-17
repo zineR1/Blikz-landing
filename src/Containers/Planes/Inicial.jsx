@@ -24,10 +24,10 @@ const Inicial = (props) => {
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>1 sucursal</p>
                 </div>
-                <div className={styles.text_div}>
+                {/* <div className={styles.text_div}>
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>Delivery on demand hasta 1.5km</p>
-                </div>
+                </div> */}
                 <div className={styles.text_div}>
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>75 productos habilitados</p>
@@ -36,10 +36,10 @@ const Inicial = (props) => {
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>Ventas ilimitadas</p>
                 </div>
-                <div className={styles.text_div}>
+                {/* <div className={styles.text_div}>
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>Sin soporte vía Whatsapp</p>
-                </div>
+                </div> */}
                 <div className={styles.text_div}>
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>Certificado SSL</p>
