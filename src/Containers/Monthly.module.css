@@ -10,9 +10,29 @@
     display: flex;
     flex-direction: column;
     box-shadow: 0 9px 16px rgba(179, 178, 178, 0.493);
-    border-radius: 15px;
+    border-radius: 32px;
     width: 350px;
-    height: 500px;
+    height: 560px;
+}
+
+.container a{
+    color: var(--color-button-principal);
+    font-weight: bold;
+    font-family: "Montserrat";
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.more{
+    background-color: transparent;
+    color: var(--color-button-principal);
+    font-weight: bolder;
+    font-family: "Montserrat";
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: underline;
 }
 
 .container h1{
@@ -41,6 +61,10 @@
     font-size: 15px;
     font-weight: 600;
     font-family: 'Montserrat';
+}
+
+.price p{
+    margin-top: 30px;
 }
 
 .text_div img{

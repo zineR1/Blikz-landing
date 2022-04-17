@@ -1,3 +1,22 @@
 body{
     background-image: url(../assets/fondopagina.png);
 } 
+
+.button_div{
+    margin-top: 150px;
+}
+
+.button_div button{
+    background-color: var(--color-button-principal);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 17px;
+    height: 35px;
+    width: 193px;
+    cursor: pointer;
+}
+
+.button_div button:hover{
+    background-color: var(--color-button-hover);
+}

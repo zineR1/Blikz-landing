@@ -37,6 +37,12 @@ const Home = () => {
           {!panelActive.mensual &&  !panelActive.anual &&  <Monthly/>}
         </section>
       </div>
+      <div className={styles.button_div}>
+      <button data-tally-open="w468Om" 
+      data-tally-layout="modal" 
+      data-tally-width="500" 
+      data-tally-hide-title="1">Registrate</button>
+      </div>
       <div>
         <Footer/>
       </div>

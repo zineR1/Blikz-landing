@@ -35,7 +35,7 @@ const Planes = ({setPanelActive, panelActive}) => {
             value="anual"
             onClick={(e) => clickHandler(e.target.value)}>
                 <h5>Plan anual</h5>
-                <p>AHORRA 50%</p>
+                <p>PROXIMAMENTE</p>
                 </button>
      </div>
     </div>

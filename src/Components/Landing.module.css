@@ -44,3 +44,30 @@
 .texto button:hover{
     background-color: var(--color-button-hover);
 }
+
+.imagenes button{
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--color-button-principal);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 17px;
+    height: 35px;
+    width: 90px;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    font-size: 13px;
+}
+
+.imagenes button:hover{
+    background-color: var(--color-button-hover);
+}
+
+
+.imagenes a{
+    text-decoration: none;
+}

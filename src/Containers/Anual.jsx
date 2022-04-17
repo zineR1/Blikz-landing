@@ -11,8 +11,8 @@ const Anual = () => {
           <p>para quienes recién empiezan</p>
           </div>
           <div className={styles.price}>
-          <h4><del>$599</del></h4>
-          <h1>$10300</h1>
+          <h4><del>$ </del></h4>
+          <h1>$ -</h1>
           <p>MXN/año</p>
           </div>
           <div className={styles.text_div}>
@@ -39,8 +39,8 @@ const Anual = () => {
           <p>emprendimientos más establecidos</p>
           </div>
           <div className={styles.price}>
-          <h4><del>$899</del></h4>
-          <h1>$12599</h1>
+          <h4><del>$ </del></h4>
+          <h1>$ -</h1>
           <p>MXN/año</p>
           </div>
           <div className={styles.text_div}>

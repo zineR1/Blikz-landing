@@ -3,7 +3,7 @@ import styles from './Footer.module.css';
 import logoblikz from '../assets/blikz1.png';
 import wp from '../assets/IconoWhatsapp.jpg';
 import lin from '../assets/IconoLinkedin.jpg';
-import mail from '../assets/IconoMail.jpg';
+import mail from '../assets/instagram.png';
 import footer1 from '../assets/footer2.png';
 
 const Footer = () => {
@@ -16,15 +16,22 @@ const Footer = () => {
         </div>
         <div className={styles.legales}>
         <h4>Legales</h4>
-        <p>Términos y condiciones</p>
         <p>Políticas de datos y privacidad</p>
-        <p>Libro de reclamaciones</p>
         </div>
         <div className={styles.rs}>
           <h4>Contacto</h4>
+          <a href="https://walink.co/ccfc03" target="_blank" without rel="noreferrer">
           <img src={wp} alt="whatsapp" height="50px"/>
+          </a>
+          <a href="https://www.facebook.com/Blikz-100292102667319" target="_blank" without rel="noreferrer">
+          <img src={lin} alt="facebook" height="50px"/>
+          </a>
+          <a href="https://instagram.com/blikzmx" target="_blank" without rel="noreferrer">
+          <img src={mail} alt="instagram" height="50px"/>
+          </a>
+          <a href="https://www.linkedin.com/company/blikz" target="_blank" without rel="noreferrer">
           <img src={lin} alt="linkedin" height="50px"/>
-          <img src={mail} alt="mail" height="50px"/>
+          </a>
         </div>
         </div>
         <div className={styles.final}>
