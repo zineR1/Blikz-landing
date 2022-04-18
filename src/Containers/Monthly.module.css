@@ -11,7 +11,7 @@
     font-family: "Montserrat";
     font-weight: bold;
     font-size: 14px;
-    margin-top:22px;
+    margin-top:50px;
 }
 
 .container{
@@ -39,7 +39,7 @@
     font-size: 14px;
     border: none;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 50px;
     text-decoration: underline;
 }
 

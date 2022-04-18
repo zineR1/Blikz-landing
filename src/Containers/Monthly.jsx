@@ -34,10 +34,10 @@ const Monthly = () => {
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>1 sucursal</p>
                 </div>
-                <div className={styles.text_div}>
+                {/* <div className={styles.text_div}>
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>Delivery on demand hasta 1.5km</p>
-                </div>
+                </div> */}
                 <button className={styles.more}onClick={() => setFormChangeInicial(true)}>Ver más</button>
                 <Inicial
         trigger={formChangeInicial}
@@ -66,10 +66,10 @@ const Monthly = () => {
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>3 sucursales</p>
                 </div>
-                <div className={styles.text_div}>
+                {/* <div className={styles.text_div}>
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>Delivery on demand hasta 5km</p>
-                </div> 
+                </div>  */}
                 <p className={styles.prox}>Proximamente</p>
           </div>
           {/* TARJETA 3 */}
@@ -95,10 +95,10 @@ const Monthly = () => {
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>7 sucursales</p>
                 </div>
-                <div className={styles.text_div}>
+                {/* <div className={styles.text_div}>
                     <img src={check} alt="check" height="18px" width="18px"/>
                     <p>Delivery on demand hasta 5km</p>
-                </div> 
+                </div>  */}
                 <p className={styles.prox}>Proximamente</p>
           </div>
     </div>
