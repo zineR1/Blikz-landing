@@ -43,9 +43,9 @@ const Home = () => {
       data-tally-width="500" 
       data-tally-hide-title="1">Registrate</button>
       </div>
-      <div>
+      {/* <div> */}
         <Footer/>
-      </div>
+      {/* </div> */}
 
     </div>
   )

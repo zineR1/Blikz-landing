@@ -52,3 +52,13 @@
     line-height: 30px;
     color: var(--color-subtitle);
 }
+
+@media screen and (max-width: 1087px) {
+    .mainContainer{
+        flex-direction: column;
+    }
+
+    .texto h3{
+        margin: 0 auto;
+    }
+}

@@ -43,3 +43,51 @@
 .btnlogin{
     margin: auto 0;
 }
+
+.hambMenu img{
+    margin: 0 auto;
+}
+
+.hambMenu button{
+    background: none;
+    width: 55px;
+    border: none;
+}
+
+@media screen and (max-width: 995px) {
+    .btn{
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .gral img{
+        /* margin-right: 80px; */
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .btn{
+        display: none;
+    }
+
+    .btnlogin{
+        display:none;
+    }
+
+    .gral img{
+        margin-left: 15px;
+    }
+
+}
+
+@media screen and (min-width: 725px) {
+    .hambMenu{
+        display:none;
+    }
+ 
+    .mobile{
+        /* width: 1000%;
+        position: block; */
+    }
+ }

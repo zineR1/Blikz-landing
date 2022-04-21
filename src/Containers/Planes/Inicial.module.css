@@ -77,3 +77,16 @@
 }
 
 
+@media screen and (max-width: 1087px) {
+    .title h3{
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .price h4{
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}

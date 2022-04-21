@@ -71,3 +71,31 @@
 .imagenes a{
     text-decoration: none;
 }
+
+@media screen and (max-width: 1087px) {
+    .contenedor{
+        flex-direction: column-reverse;
+        /* justify-content: space-around; */
+        /* margin-top: 80px; */
+    }
+
+    .texto{
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    .texto h1,h3{
+        margin-left: 50px;
+        width: 100%
+    }
+
+    .texto button{
+        display:block;
+        margin: 0 auto;
+    }
+
+    .imagenes{
+        margin-bottom: 50px;
+    }
+
+}

@@ -6,4 +6,5 @@ export {default as Beneficios} from "./Beneficios";
 export {default as Planes} from "./Planes";
 export {default as Contact} from "./Contact";
 export {default as Footer} from "./Footer";
+export {default as MobileMenu} from "./MobileMenu";
 

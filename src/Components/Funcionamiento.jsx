@@ -44,7 +44,7 @@ const Funcionamiento = () => {
                 <h2>4 - Entrega a tus clientes locales en minutos</h2>
                 <h3>Con nuestro servicio de delivery On-Demand, un repartidor se encargará de la entrega por ti.</h3>
             </div>
-                <img src={entregas} alt="sube productos" height="200px"/>
+                <img className={styles.caja}src={entregas} alt="sube productos" height="200px"/>
         </div>
 
 

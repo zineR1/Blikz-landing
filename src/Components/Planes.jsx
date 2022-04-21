@@ -12,8 +12,6 @@ const Planes = ({setPanelActive, panelActive}) => {
       }
     };
 
-    
-  
   return (
     <div className={styles.gral}>
         <div className={styles.div1}>

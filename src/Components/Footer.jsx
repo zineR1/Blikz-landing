@@ -5,13 +5,13 @@ import wp from '../assets/IconoWhatsapp.jpg';
 import lin from '../assets/IconoLinkedin.jpg';
 import ig from '../assets/instagram1.png';
 import fb from '../assets/facebook4.png';
-import footer1 from '../assets/footer2.png';
+// import footer1 from '../assets/footer2.png';
 
 const Footer = () => {
   return (
     <div className={styles.gral}>
         <div className={styles.main}>
-        <div className={styles.logo_div}>
+         <div className={styles.logo_div}>
         <img src={logoblikz} alt="blikz" height="45px" width="100px"/>
         <p>Todos tus pedidos en un sólo lugar.</p>
         </div>
@@ -21,6 +21,7 @@ const Footer = () => {
         </div>
         <div className={styles.rs}>
           <h4>Contacto</h4>
+          <div className={styles.rs_responsive}>
           <a href="https://walink.co/ccfc03" target="_blank" without rel="noreferrer">
           <img src={wp} alt="whatsapp" height="50px"/>
           </a>
@@ -33,12 +34,13 @@ const Footer = () => {
           <a href="https://www.linkedin.com/company/blikz" target="_blank" without rel="noreferrer">
           <img src={lin} alt="linkedin" height="50px"/>
           </a>
+          </div>
         </div>
         </div>
         <div className={styles.final}>
-        <p>Copyright © 2022 Blikz</p> 
-        </div>
-        <img src={footer1} alt="footer" height="100%" width="100%"/>
+        <p>Copyright © 2022 Blikz</p>
+        </div> 
+        {/* <img src={footer1} alt="footer" height="100%" width="100%"/> */}
     </div>
   )
 }

@@ -88,6 +88,53 @@
     font-weight: 400;
     width: 400px;
     color: var(--color-subtitle);
-
 }
 
+@media screen and (max-width: 1087px) {
+    .container{
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .texto{
+        margin: 0 auto;
+        padding-left: 45px;
+    }
+
+    .texto h2{
+        margin-left: 55px;
+    }
+
+    .container img{
+        margin: 0 auto;
+    }
+
+    .container2{
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .imagen2{
+        margin: 20px auto;
+    }
+
+    .div1 h3{
+        margin: 0 auto;
+    }
+
+    .texto3{
+        margin: 0 auto;
+        /* padding-left: 25px; */
+    }
+
+    .texto3 h2{
+        margin-left: 55px;
+    }
+
+    .caja{
+        height: 240px;
+        width: 430px;
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+}

@@ -82,3 +82,9 @@
 .active p{
     color: rgb(224, 224, 224);
 }
+
+@media screen and (max-width: 1087px) {
+     .div1 h3{
+        margin: 0 auto;
+     }
+}

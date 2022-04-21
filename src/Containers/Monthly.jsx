@@ -44,7 +44,7 @@ const Monthly = () => {
         setTrigger={setFormChangeInicial}/>
           </div>
          {/* TARJETA 2 */}
-         <div className={styles.container}>
+         <div className={styles.container2}>
           <div className={styles.title}>
           <h3>Plan comercial</h3>
           <p>emprendimientos más establecidos.</p>
@@ -73,7 +73,7 @@ const Monthly = () => {
                 <p className={styles.prox}>Proximamente</p>
           </div>
           {/* TARJETA 3 */}
-          <div className={styles.container}>
+          <div className={styles.container3}>
           <div className={styles.title}>
           <h3>Plan avanzado</h3>
           <p>negocios consolidados.</p>

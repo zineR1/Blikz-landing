@@ -12,7 +12,6 @@
 .div1 h1{
     font-weight: 630;
     font-size: 38px;
-
 }
 
 .div1 h3{
@@ -28,7 +27,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin: 0 auto;
-    width: 1100px;
+    /* width: 1100px; */
 }
 
 
@@ -77,7 +76,7 @@
     flex-direction: row-reverse;
     justify-content: space-around;
     margin: 0 auto;
-    width: 1100px;
+    /* width: 1100px; */
 }
 
 /* Sección 3 */
@@ -106,4 +105,42 @@
 
 .text_div h3{
     color:black;
+}
+
+@media screen and (max-width: 1087px) {
+    .gral{
+        margin-top: -70px;
+    }
+
+    .div1 h3{
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .container video{
+        margin: 0 auto;
+    }
+
+    .texto{
+        margin: 0 auto;
+        /* padding-left: 50px; */
+    }
+
+    .container2{
+        flex-direction: column;
+    }
+
+    .container2 video{
+        margin: 0 auto;
+    }
+
+    .texto3{
+        margin: 0 auto;
+        /* padding-left: 50px; */
+        padding-bottom: 50px;
+    }
 }
