@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className={styles.gral}>
         <Link to="/"> 
-        <img src={logo} alt='logo' height="43px" width="100px"/>
+        <img className={styles.logo} src={logo} alt='logo' height="43px" width="100px"/>
         </Link>
         {/* <div className={styles.menu}> */}
         <a href="#como-funciona" className={styles.btn}>Cómo funciona</a>

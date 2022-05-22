@@ -87,4 +87,19 @@
      .div1 h3{
         margin: 0 auto;
      }
+
+     .div1 h1{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+.gral{
+    margin: 0 auto;
+}
+
+.buttons_div{
+    display: none;
+}
+
 }

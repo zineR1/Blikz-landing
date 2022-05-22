@@ -49,9 +49,8 @@
 }
 
 .hambMenu button{
-    background: none;
-    width: 55px;
-    border: none;
+  background: none;
+  border: none;
 }
 
 @media screen and (max-width: 995px) {
@@ -67,6 +66,19 @@
 }
 
 @media screen and (max-width: 725px) {
+    .hambMenu{
+        margin-left: 150px;
+
+    }
+
+    .hambMenu button{
+        width: 40px;
+    }
+
+    .hambMenu img{
+        margin: 0 auto;
+    }
+    
     .btn{
         display: none;
     }
@@ -75,19 +87,62 @@
         display:none;
     }
 
-    .gral img{
-        margin-left: 15px;
+    .logo {
+        margin: 0 10px;
     }
 
 }
 
 @media screen and (min-width: 725px) {
-    .hambMenu{
+    /* .hambMenu{
         display:none;
-    }
+    } */
  
+    .hambMenu button{
+        background: none;
+        width: 55px;
+        border: none;
+    }
+    
     .mobile{
         /* width: 1000%;
         position: block; */
     }
  }
+
+ @media screen and (max-width: 810px) {
+    /* .gral{
+        width: 800px;
+        margin: 35px auto;
+    } */
+    
+    .gral img{
+        margin-right: 100px;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .btnlogin{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 858px) {
+    .btn{
+        display: none;
+    }
+
+    .btnlogin{
+        display:none;
+    }
+
+}
+
+
+ @media screen and (min-width: 859px) {
+    .hambMenu{
+        display: none;
+    }
+}

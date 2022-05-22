@@ -34,7 +34,7 @@ const Servicios = () => {
                 </div>
                
             </div>
-                <video src={ordenes} alt="crear tienda" height="540px" width="580px" autoPlay muted loop/>
+                <video className={styles.orden} src={ordenes} alt="crear tienda" height="540px" width="580px" autoPlay muted loop/>
         </div>
 
         <div className={styles.container2}>
@@ -57,7 +57,7 @@ const Servicios = () => {
         <div className={styles.container}>
             <div className={styles.texto3}>
                 <h2>De tu tienda al cliente en instantes</h2>
-                <h3>Blinkz se convierte en tu propia flotilla de reparto, para realizar tus 
+                <h3>Blikz se convierte en tu propia flotilla de reparto, para realizar tus 
                     entregas de delivery.</h3>
                 <div className={styles.text_div}>
                     <img src={check} alt="check" height="18px" width="18px"/>
@@ -69,7 +69,7 @@ const Servicios = () => {
                 </div>
                
             </div>
-                <video src={map} alt="mapa" height="450px" width="370px" autoPlay muted loop/>
+                <video className={styles.maps} src={map} alt="mapa" height="450px" width="370px" autoPlay muted loop/>
         </div>
     </div>
   )
