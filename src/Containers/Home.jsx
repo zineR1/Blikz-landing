@@ -38,6 +38,18 @@ const Home = () => {
         </section>
       </div> */}
       <div className={styles.button_div}>
+        <div className={styles.price}>
+        <div className={styles.price1}>
+        <h1>¿Cuánto cuesta usar Blikz?</h1>
+        <h3>Lo único que pagas es una tarifa por cada repartidor que solicites.</h3>
+        </div>
+        <div className={styles.price2}>
+          <h3>Únicamente</h3>
+          <h1>$3 MXN</h1>
+          <h3>x repartidor</h3>
+          <p>*No incluye costo de envío</p>
+        </div>
+        </div>
       <button data-tally-open="w468Om" 
       data-tally-layout="modal" 
       data-tally-width="500" 
