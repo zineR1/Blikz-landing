@@ -1,16 +1,16 @@
 import React from 'react';
 import styles from './Home.module.css';
-import {Header, Landing, Funcionamiento, Servicios, Beneficios, Planes, Footer} from "../Components";
-import Monthly from "./Monthly";
+import {Header, Landing, Funcionamiento, Servicios, Beneficios, Footer} from "../Components";
+// import Monthly from "./Monthly";
 // import Anual from "./Anual";
 
 
 const Home = () => {
 
-  const [panelActive, setPanelActive] = React.useState({
-    mensual: true,
-    anual: false,
-  });
+  // const [panelActive, setPanelActive] = React.useState({
+  //   mensual: true,
+  //   anual: false,
+  // });
 
   return (
     <div>
