@@ -19,7 +19,7 @@ const Header = () => {
         <a href="#como-funciona" className={styles.btn}>Cómo funciona</a>
         <a href="#servicios" className={styles.btn}>Nuestros Servicios</a>
         <a href="#beneficios" className={styles.btn}>Beneficios</a>
-        <a href="#planes" className={styles.btn}>Planes</a>
+        <a href="#planes" className={styles.btn}>Precio</a>
         {/* </div> */}
         <div className={styles.btnlogin}>
         <Link to="/login"> 
