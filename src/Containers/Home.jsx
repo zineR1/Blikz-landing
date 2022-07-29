@@ -29,14 +29,14 @@ const Home = () => {
         <div id="beneficios">
           <Beneficios/>
         </div>
-        <div id="planes" className={styles.div_Navbar}>
+        {/* <div id="planes" className={styles.div_Navbar}>
       <Planes setPanelActive={setPanelActive} panelActive={panelActive}/>
       <section>
           {panelActive.mensual &&  <Monthly/>}
           {panelActive.anual && <Monthly/>}
           {!panelActive.mensual &&  !panelActive.anual &&  <Monthly/>}
         </section>
-      </div>
+      </div> */}
       <div className={styles.button_div}>
       <button data-tally-open="w468Om" 
       data-tally-layout="modal" 

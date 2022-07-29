@@ -128,9 +128,9 @@ const Login = () => {
         </form>
       </div>
       </div>
-      <div>
+      {/* <div> */}
       <Footer/>
-      </div>
+      {/* </div> */}
     </div>
   );
 }
